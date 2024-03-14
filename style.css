@@ -98,3 +98,34 @@ body{
     font-size: 0.9375rem;
     font-weight: 1.625rem;
 }
+
+.terceira-secao > div{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.terceira-secao img{
+    max-width: 6.25rem;
+
+}
+.terceira-secao strong{
+    font-size: 2rem;
+    color: var(--silver);
+    line-height: 100%;
+}
+
+
+.terceira-secao h2{
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: var(--dark-blue);
+    margin-block: 0.6rem;
+    line-height: 1.5rem;
+}
+.terceira-secao p{
+    font-size: 0.9375rem;
+    line-height: 1.625rem ;
+    color: var(--gunmetal);
+}
