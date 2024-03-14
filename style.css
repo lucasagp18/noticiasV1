@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root{
@@ -13,11 +15,52 @@
     --silver: #C5C6CE;
 }
 
+body{
+    padding: 1.75rem 1rem;
+    background-color: var(--almost-white);
+}
 .header-mobile{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.header-mobile button{
+    border: none;
+    background: none;
 }
 
-body{
-    padding: 1.75rem 1 rem;
-    background-color: var(--almost-white);
+.primeira-secao{
+    margin-bottom: 4rem;
+
+}
+.primeira-secao img{
+    width: 100%;
+    margin-bottom: 1.5rem;   
+}
+
+.primeira-secao h1{
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+.primeira-secao p {
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    color: var(--gunmetal);
+    margin-bottom: 1.5rem;
+}
+
+.primeira-secao button{
+    padding: 0.75rem 2rem;
+    background-color: var(--vermellion);
+    border: none;
+    text-transform: uppercase;
+    color: var(--almost-white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.275rem;
+    line-height: 1.5rem;
 }
