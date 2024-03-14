@@ -41,6 +41,7 @@ header button{
     border: none;
     background: none;
     width: fit-content;
+    cursor: pointer;
 }
 header nav.mobile {
     position: fixed;
@@ -174,8 +175,34 @@ header nav button {
     color: var(--gunmetal);
 }
 
+.terceira-secao a {
+    text-decoration: none;
+}
+header.desktop{
+    display: none;
+}
 
 @media (min-width: 1110px){
+
+    header > button {
+        display: none;
+    }
+
+    header .desktop{
+        display: flex;  
+        gap: 2.5rem;
+    }
+
+
+    header .desktop a{
+        font-size: 0.9375rem;
+        line-height: 1.625rem;
+        text-decoration: none;
+        color: var(--gunmetal);
+    }
+    header .desktop a:houver {
+        color: var(--vermellion);
+    }
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -200,32 +227,20 @@ header nav button {
     .primeira-secao h1{
         font-size: 3.5rem;
     }
+    .primeira-secao button:houver {
+        background-color: var(--dark-blue);
+        cursor: pointer;
+    }
     .segunda-secao h2{
         font-size: 2.5rem;
     }
-    header > button {
-        display: none;
+    .terceira-secao{
+        display: flex;
+        grid-column: 1/4;
     }
-
-    header .desktop{
-        display: flex;  
-        gap: 2.5rem;
+    .terceira-secao h2:hover {
+        color: var(--vermellion);
     }
-
-
-    header .desktop a{
-        font-size: 0.9375rem;
-        line-height: 1.625rem;
-        text-decoration: none;
-        color: var(--gunmetal);
-    }
-
-
-
-
-
-
-
 
 
 
